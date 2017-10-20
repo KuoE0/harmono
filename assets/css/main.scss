@@ -953,3 +953,46 @@ nav {
     padding-bottom: 2em;
   }
 }
+
+/* --------------------------------
+
+  Slider Gallery
+
+--------------------------------- */
+
+ul.rslides {
+  list-style: none !important;
+  padding: 0 !important;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+ul.rslides li {
+  height: 500px;
+  padding: 10px;
+}
+
+ul.rslides li img {
+  padding: 0;
+  object-fit: contain;
+  height: 100%;
+}
+
+.rslides_tabs {
+  // box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+  // -moz-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+  // -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+  text-align: center;
+  width: 100%;
+  list-style: none !important;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.rslides_tabs li {
+  display: inline;
+  padding: 0 10px;
+}

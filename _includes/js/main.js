@@ -7,6 +7,7 @@ $(window).load(function(){
     });
   }
   unveilImages();
+
 });
 
 jQuery(document).ready(function($){
@@ -18,6 +19,16 @@ jQuery(document).ready(function($){
     });
   }
   initLazyImagesLoading();
+
+	function initCarouselGallery() {
+		$("ul:has(li:has(img))").addClass("rslides");
+		$(".rslides").responsiveSlides({
+			auto: false,
+			pager: true,
+		});
+	}
+	initCarouselGallery();
+
 
   function switchNavbarBackground() {
     // Remove bg-color of navbar when it is on the feature photo. Otherwise, add
